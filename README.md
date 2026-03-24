@@ -3,8 +3,15 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Vue 3](https://img.shields.io/badge/Vue-3.4-brightgreen.svg)](https://vuejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue.svg)](https://www.typescriptlang.org/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen.svg)](https://duan-zhenghong.github.io/electricity-calculator/)
+
+## 🌐 在线使用
+
+**访问地址**：https://duan-zhenghong.github.io/electricity-calculator/
 
 一款专为陕西省居民设计的峰谷电费测算工具，支持阶梯电价、峰谷分时、采暖季政策的完整计算逻辑。帮助您分析用电成本，制定最优用电策略。
+
+> ⚠️ **示例数据声明**：本工具中的示例数据为虚构生成，用于展示功能，不涉及任何真实用户隐私数据。
 
 ## 🎯 适用场景
 
@@ -57,16 +64,16 @@
 ## 🚀 快速开始
 
 ### 在线使用
-直接访问 [在线演示地址] 即可使用，无需安装。
+直接访问 https://duan-zhenghong.github.io/electricity-calculator/ 即可使用，无需安装。
 
 ### 本地运行
 
 ```bash
 # 克隆仓库
-git clone https://gitee.com/your-username/shaanxi-electricity-calculator.git
+git clone https://github.com/duan-zhenghong/electricity-calculator.git
 
 # 进入项目目录
-cd shaanxi-electricity-calculator
+cd electricity-calculator
 
 # 安装依赖
 npm install
@@ -81,7 +88,7 @@ npm run build
 ## 📁 项目结构
 
 ```
-shaanxi-electricity-calculator/
+electricity-calculator/
 ├── src/
 │   ├── utils/
 │   │   └── calculator.ts    # 核心计算逻辑
@@ -126,31 +133,12 @@ shaanxi-electricity-calculator/
 其中 P1/V1 为低档峰谷价，P2/V2 为高档峰谷价
 ```
 
-## 📊 示例数据
-
-工具内置了示例数据，您可以直接载入体验：
-
-| 月份 | 用电量(度) | 电费(元) |
-|------|-----------|----------|
-| 7月 | 589 | 268.20 |
-| 8月 | 653 | 285.29 |
-| 9月 | 396 | 196.28 |
-| 10月 | 268 | 130.60 |
-| 11月 | 340 | 149.92 |
-| 12月 | 311 | 137.77 |
-| 1月 | 228 | 97.76 |
-| 2月 | 180 | 76.69 |
-| 3月 | 262 | 115.41 |
-| 4月 | 159 | 72.13 |
-| 5月 | 294 | 139.15 |
-| 6月 | 376 | 180.22 |
-
 ## 🛠️ 技术栈
 
 - **前端框架**: Vue 3 + TypeScript
 - **构建工具**: Vite 5
 - **样式**: 原生 CSS（无框架依赖）
-- **部署**: 支持 Gitee Pages / GitHub Pages
+- **部署**: GitHub Pages
 
 ## 📝 数据来源
 
@@ -163,20 +151,9 @@ shaanxi-electricity-calculator/
 
 欢迎提交 Issue 和 Pull Request！
 
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 提交 Pull Request
-
 ## 📄 许可证
 
 本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
-
-## 🙏 致谢
-
-- 感谢国网陕西电力提供的公开电价政策信息
-- 感谢所有贡献者的支持
 
 ---
 
