@@ -1,0 +1,31 @@
+{
+  "name": "shaanxi-electricity-calculator",
+  "version": "1.0.0",
+  "description": "陕西省居民峰谷电费测算工具 - 支持阶梯电价、峰谷分时、采暖季政策计算",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "keywords": [
+    "electricity",
+    "calculator",
+    "shaanxi",
+    "peak-valley",
+    "阶梯电价",
+    "峰谷电价"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.6",
+    "vue-tsc": "^2.0.6"
+  }
+}
